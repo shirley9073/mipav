@@ -1,0 +1,54 @@
+#   LaunchAnywhere (tm) Executable Properties File - Flexera Software, Inc. and/or InstallShield Co. Inc.
+
+
+#   LAX.CLASS.PATH
+#   --------------
+#   the Java classpath necessary to run this application
+#   Can be separated by colons (Mac OS/Unix) or semicolons (Windows)
+
+lax.class.path=.;InsightToolkit/lib/InsightToolkit/InsightToolkit.jar;lib/JimiProClasses.jar;lib/jaxp/dom.jar;lib/jaxp/sax.jar;lib/jaxp/xalan.jar;lib/jaxp/xercesImpl.jar;lib/tar.jar;lib/jdom.jar;lib/junit-4.4.jar;lib/WildMagic.jar;lib/jj2kpack.jar;lib/jhall.jar;lib/ACCESSION_client_VTool.jar;lib/bcprov-jdk15-136.jar;lib/jax-qname.jar;lib/pdfbox-1.2.0.jar;lib/jempbox-1.2.0.jar;lib/fontbox-1.2.0.jar;lib/jTEM.jar;lib/hyperapplet.jar;lib/javac.jar;lib/ij.jar;lib/dataDictionaryClient-4.1.1.8.jar;lib/core_dictionary-4.1.1.8.jar;lib/camino.jar;lib/streambuffer.jar;lib/stax-ex.jar;lib/saaj-impl.jar;lib/policy.jar;lib/log4j-1.2.16.jar;lib/jaxws-rt.jar;lib/jaxb-impl.jar;lib/jaxb-api.jar;lib/javax.persistence.jar;lib/fitbir-web-service.jar;lib/gmbal-api-only.jar;lib/fitbir-model.jar;lib/mail.jar;lib/activation.jar;lax.jar
+
+
+#   LAX.MAIN.CLASS
+#   --------------
+#   the class that contains the main method for the application
+
+lax.main.class=MipavMain
+
+
+#   LAX.NL.CURRENT.VM
+#   -----------------
+#   the VM to use for the next launch
+
+lax.nl.current.vm=jre\\bin\\java.exe
+
+
+#   LAX.NL.JAVA.OPTION.ADDITIONAL
+#   -----------------------------
+#   Runtime server switch to force java to run as:
+#   java -server MipavMain  etc, etc, etc
+
+lax.nl.java.option.additional=-server
+
+
+#   LAX.NL.JAVA.OPTION.JAVA.HEAP.SIZE.INITIAL
+#   -----------------------------------------
+#   Java start up heap size
+
+lax.nl.java.option.java.heap.size.initial=300M
+
+
+#   LAX.NL.JAVA.OPTION.JAVA.HEAP.SIZE.MAX
+#   -------------------------------------
+#   Java maximum heap size
+
+lax.nl.java.option.java.heap.size.max=6000M
+
+
+#   LAX.VERSION
+#   -----------
+#   version of LaunchAnywhere that created this properties file
+
+lax.version=12.5
+
+
