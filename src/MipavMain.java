@@ -11,6 +11,7 @@ import gov.nih.mipav.view.*;
 
 
 /**
+ * added comment
  * The class which starts up the Mipav application. Also passes along the command line arguments to the UI.
  */
 public class MipavMain {
